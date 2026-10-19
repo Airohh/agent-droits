@@ -1,0 +1,28 @@
+# Secrets
+.env
+
+# Fiches de cadrage internes : restent en local, hors du dépôt public
+00-idee-generale.md
+01-etapes-et-tech.md
+
+# Jeux d'évaluation privés et logs d'éval : jamais publiés
+evals/**/prive*.jsonl
+evals/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
